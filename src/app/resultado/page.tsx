@@ -3,7 +3,6 @@
 import { useFan } from "../context/FanContext";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import Image from "next/image";
 
 export default function ResultadoPage() {
   const {
