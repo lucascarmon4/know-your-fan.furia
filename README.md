@@ -18,12 +18,16 @@ Com essas informações, o app gera um **perfil personalizado**, identifica o **
 
 ---
 
+## 🖥️ Link para acessar o projeto 
+
+👉 [Clique aqui para acessar o app](https://know-your-fan-furia.vercel.app)
+
+---
+
 ## 📸 Preview
 
 ![Tela Principal](./public/screenshot-home.png)
 ![Tela Resultado](./public/screenshot-resultado.png)
-
-> (Você pode colocar prints do app depois, ou deixar para adicionar depois da entrega)
 
 ---
 
