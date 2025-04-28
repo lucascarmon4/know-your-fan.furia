@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Know Your Fan - Desafio FURIA 🐆
 
-## Getting Started
+Este projeto foi desenvolvido para o **Desafio FURIA** (Challenge #2 - Know Your Fan).  
+A ideia é criar uma solução que entenda mais sobre o fã da FURIA, utilizando dados pessoais, redes sociais e interações.
 
-First, run the development server:
+---
+
+## 🔥 Sobre o Projeto
+
+O **Know Your Fan** é um aplicativo que coleta informações do usuário para montar o perfil do fã:  
+- Dados pessoais (nickname, idade, cidade, time favorito)
+- Redes sociais favoritas
+- Interesses nos times da FURIA
+- Engajamento social
+- Interações com a organização
+
+Com essas informações, o app gera um **perfil personalizado**, identifica o **tipo de fã** e apresenta **medalhas** exclusivas.
+
+---
+
+## 📸 Preview
+
+![Tela Principal](./public/screenshot-home.png)
+![Tela Resultado](./public/screenshot-resultado.png)
+
+> (Você pode colocar prints do app depois, ou deixar para adicionar depois da entrega)
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- [Next.js 14](https://nextjs.org/)
+- [React 18](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [html2canvas](https://html2canvas.hertzen.com/) *(não utilizado na versão final, mas considerado)*
+- [Vercel](https://vercel.com/)
+
+---
+
+## 🛠️ Como rodar localmente
+
+Clone o projeto:
+
+```bash
+git clone https://github.com/seu-usuario/know-your-fan.git
+cd know-your-fan
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Rode o projeto:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra no navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📄 Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+- Cadastro rápido de perfil
+- Escolha de rede social preferida
+- Coleta de interesses nos times e modalidades da FURIA
+- Perguntas de engajamento e comportamento social
+- Geração de perfil de fã:
+  - Fã Hardcore 🔥
+  - Fã Casual 🎮
+  - Simpatizante 👀
+- Exibição de medalhas especiais 🏅
+- Visual bonito com tema dark e logo oficial da FURIA
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📢 Observações
 
-## Deploy on Vercel
+- Todos os dados são simulados apenas no **frontend** (Context API + LocalStorage).
+- Não existe backend real.
+- Não é necessário autenticação.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> Este projeto foi criado exclusivamente para fins de demonstração no desafio da FURIA.
+
