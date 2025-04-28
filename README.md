@@ -1,4 +1,4 @@
-# Know Your Fan - Desafio FURIA 🐆
+# Know Your Fan - Desafio FURIA 🐾
 
 Este projeto foi desenvolvido para o **Desafio FURIA** (Challenge #2 - Know Your Fan).  
 A ideia é criar uma solução que entenda mais sobre o fã da FURIA, utilizando dados pessoais, redes sociais e interações.
